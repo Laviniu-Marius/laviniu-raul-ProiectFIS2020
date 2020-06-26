@@ -1,4 +1,4 @@
-package org.loose.fis.registration.example.model;
+package org.loose.fis.library.application.model;
 
 public class User {
 

@@ -1,11 +1,11 @@
-package org.loose.fis.registration.example.services;
+package org.loose.fis.library.application.services;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.FileUtils;
-import org.loose.fis.registration.example.exceptions.CouldNotWriteUsersException;
-import org.loose.fis.registration.example.exceptions.UsernameAlreadyExistsException;
-import org.loose.fis.registration.example.model.User;
+import org.loose.fis.library.application.exceptions.CouldNotWriteUsersException;
+import org.loose.fis.library.application.exceptions.UsernameAlreadyExistsException;
+import org.loose.fis.library.application.model.User;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
