@@ -66,16 +66,16 @@ public class LoginClient {
             }
             if (ok == 1 && (nameInput.getText().equals("client"))) {
 
-             //   Main.window.setScene(ClientOverview.draw());
-             //   Main.window.setTitle("Client Overview");
+                Main.window.setScene(ClientOverview.draw());
+                Main.window.setTitle("Client Overview");
                 ok=0;
             }
 
             else
             if (ok == 1 && (nameInput.getText().equals("client2"))) {
 
-              //  Main.window.setScene(ClientOverview.draw());
-            //    Main.window.setTitle("Client Overview");
+                Main.window.setScene(ClientOverview.draw());
+                Main.window.setTitle("Client Overview");
                 ok=0;
             }
 

@@ -34,7 +34,7 @@ public class SelectionScreen {
         GridPane.setConstraints(LibraryManagerButton,10,7);
 
         ClientButton.setOnAction(e -> {
-           // Main.window.setScene(LoginClient.draw());
+            Main.window.setScene(LoginClient.draw());
             Main.window.setTitle("Client Login");
         });
         LibraryManagerButton.setOnAction(e -> {

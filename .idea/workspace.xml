@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048647f7-859c-4584-9cb1-9f62855c4851" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/ClientOverview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/LoginClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/LoginClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/LoginLibraryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/LoginLibraryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/SelectionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/SelectionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/LoginClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/LoginClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/LoginLibraryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/LoginLibraryManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593256532682</updated>
-      <workItem from="1593256537101" duration="11081000" />
+      <workItem from="1593256537101" duration="12017000" />
     </task>
     <servers />
   </component>
@@ -84,22 +89,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593257856395" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1593268187769">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1593269127544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593268187769" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1593268187769">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593269127544" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1593269127544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593268187769" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1593268187769">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593269127544" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1593269127544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593268187769" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1593268187769">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593269127544" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1593269127544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593268187769" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593269127544" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1593260122790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

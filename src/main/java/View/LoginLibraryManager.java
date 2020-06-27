@@ -40,7 +40,7 @@ public class LoginLibraryManager {
         GridPane.setConstraints(passInput,1,1);
 
 
-        Button loginButton = new Button("Log In");
+        Button loginButton = new Button("Login");
         GridPane.setConstraints(loginButton,1,2);
         Button SelectScreenButton = new Button("Back");
         GridPane.setConstraints(SelectScreenButton,1,3);
@@ -67,7 +67,7 @@ public class LoginLibraryManager {
             if (ok == 1 && (nameInput.getText().equals("admin"))) {
 
                 Main.window.setScene(LibraryManagerOverview.draw());
-                Main.window.setTitle("Admin Overview");
+                Main.window.setTitle("Library Manager Overview");
                 ok=0;
             }
 
