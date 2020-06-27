@@ -29,14 +29,14 @@ public class LoginLibraryManager {
         GridPane.setConstraints(nameLabel,0,0);
 
         TextField nameInput = new TextField();
-        nameInput.setPromptText("username");
+        nameInput.setPromptText("Type here");
         GridPane.setConstraints(nameInput,1,0);
 
         Label passLabel = new Label("Password:");
         GridPane.setConstraints(passLabel,0,1);
 
         PasswordField passInput = new PasswordField();
-        passInput.setPromptText("password");
+        passInput.setPromptText("Type here");
         GridPane.setConstraints(passInput,1,1);
 
 
