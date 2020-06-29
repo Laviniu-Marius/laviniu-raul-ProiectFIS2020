@@ -26,13 +26,13 @@ public class ClientOverview {
 
         BackButton.setOnAction(e ->{
             Main.window.setScene(LoginClient.draw());
-            Main.window.setTitle("Client Login");
+            Main.window.setTitle("Client login");
         });
 
-      /*  BookListButton.setOnAction(e -> {
-            Main.window.setScene(BookListOverview.draw());
+        BookListButton.setOnAction(e -> {
+            Main.window.setScene(ClientBookListOverview.draw());
             Main.window.setTitle("Book list");
-        }); */
+        });
 
         grid.getChildren().addAll(BookListButton,BackButton);
         Scene scene = new Scene(grid,w,h);

@@ -26,7 +26,7 @@ public class LibraryManagerOverview {
 
         BackButton.setOnAction(e ->{
             Main.window.setScene(LoginLibraryManager.draw());
-            Main.window.setTitle("Manager Login");
+            Main.window.setTitle("Manager login");
         });
 
         BookListButton.setOnAction(e -> {

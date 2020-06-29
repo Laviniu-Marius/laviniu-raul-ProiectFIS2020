@@ -35,11 +35,11 @@ public class SelectionScreen {
 
         ClientButton.setOnAction(e -> {
             Main.window.setScene(LoginClient.draw());
-            Main.window.setTitle("Client Login");
+            Main.window.setTitle("Client login");
         });
         LibraryManagerButton.setOnAction(e -> {
             Main.window.setScene(LoginLibraryManager.draw());
-            Main.window.setTitle("Manager Login");
+            Main.window.setTitle("Manager login");
         });
 
         grid.getChildren().addAll(ClientButton,LibraryManagerButton);

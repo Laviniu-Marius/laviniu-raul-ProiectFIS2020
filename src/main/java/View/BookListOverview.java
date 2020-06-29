@@ -55,9 +55,26 @@ public class BookListOverview {
         });
 
         BookAddButton.setOnAction(e ->{
-            String[] ret=BookContentOverview.display("Add Book","Enter details");
+            String[] ret=BookContentOverview.display("Add Book","Enter in order: title, author and content");
             if(ret!=null) {
                 BookController.addBook(ret[0], ret[1], ret[2]);
+                list.clear();
+                BookController.readBooks();
+                for (Book b : BookController.bookList) {
+                    list.add(b.getTitle());
+                }
+
+                listView.getItems().clear();
+                listView.getItems().addAll(list);
+            }
+
+        });
+
+        BookDeleteButton.setOnAction(e -> {
+            String ret=listView.getSelectionModel().getSelectedItem();
+            if(ret!=null)
+            {
+                BookController.deleteBook(ret);
                 list.clear();
                 BookController.readBooks();
                 for (Book b : BookController.bookList) {

@@ -47,7 +47,7 @@ public class BookContentOverview
         }
         else
         {
-            Alert.display("Error","You cannot leave a field empty");
+            Alert.display("Error","You cannot leave a field empty.");
         }
     });
 
