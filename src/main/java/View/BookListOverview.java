@@ -55,7 +55,7 @@ public class BookListOverview {
         });
 
         BookAddButton.setOnAction(e ->{
-            String[] ret=BookContentOverview.display("Add Book","Enter in order: title, author and content");
+            String[] ret= BookAdder.display("Add Book","Enter in order: title, author and content");
             if(ret!=null) {
                 BookController.addBook(ret[0], ret[1], ret[2]);
                 list.clear();
