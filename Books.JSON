@@ -1,1 +1,13 @@
-[{"title":"Ion", "author":"Liviu Rebreanu","content": "Ion a fost un taran care voia pamant."}]
+[ {
+  "title" : "Ion",
+  "author" : "Liviu Rebreanu",
+  "content" : "Ion a fost un taran care voia pamant."
+}, {
+  "title" : "Viata mea",
+  "author" : "Danutu",
+  "content" : "Se putea mai bine dar mai e si ziua de maine."
+}, {
+  "title" : "test",
+  "author" : "test",
+  "content" : "test"
+} ]
