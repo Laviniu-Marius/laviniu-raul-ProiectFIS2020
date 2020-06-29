@@ -37,6 +37,20 @@ public class BookController {
 
     }
 
+    public static void addBook(String title, String author, String content) {
+        if(getBook(title)==null) {
+            Book bk = new Book();
+            bk.setTitle(title);
+            bk.setAuthor(author);
+            bk.setContent(content);
+            bookList.add(bk);
+            writeBooks();
+        }
+        else
+        {
+            Alert.display("Error","Title already exists.");
+        }
 
+    }
 
 }
