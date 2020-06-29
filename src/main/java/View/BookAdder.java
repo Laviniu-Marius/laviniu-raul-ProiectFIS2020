@@ -12,7 +12,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 
-public class BookContentOverview
+public class BookAdder
 {
     static String ret;
     static String[] retS = new String[4];
