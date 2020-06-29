@@ -12,7 +12,7 @@ public class LibraryManagerOverview {
     Stage window=new Stage();
     public static Scene draw()
     {
-        int w = 300, h = 300;
+        int w = 400, h = 400;
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10,10,10,10));
         grid.setVgap(10);
@@ -26,13 +26,13 @@ public class LibraryManagerOverview {
 
         BackButton.setOnAction(e ->{
             Main.window.setScene(LoginLibraryManager.draw());
-            Main.window.setTitle("Manager Login");
+            Main.window.setTitle("Manager login");
         });
 
-      /*  BookListButton.setOnAction(e -> {
+        BookListButton.setOnAction(e -> {
             Main.window.setScene(BookListOverview.draw());
             Main.window.setTitle("Book list");
-        }); */
+        });
 
         grid.getChildren().addAll(BookListButton,BackButton);
         Scene scene = new Scene(grid,w,h);

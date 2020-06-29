@@ -46,7 +46,7 @@ public class LoginClient {
         GridPane.setConstraints(SelectScreenButton,1,3);
         SelectScreenButton.setOnAction(e -> {
             Main.window.setScene(SelectionScreen.draw());
-            Main.window.setTitle("Selection Screen");
+            Main.window.setTitle("Selection screen");
         });
 
         File file = new File("ClientAccounts.JSON");
@@ -67,7 +67,7 @@ public class LoginClient {
             if (ok == 1 && (nameInput.getText().equals("client"))) {
 
                 Main.window.setScene(ClientOverview.draw());
-                Main.window.setTitle("Client Overview");
+                Main.window.setTitle("Client overview");
                 ok=0;
             }
 
@@ -75,7 +75,7 @@ public class LoginClient {
             if (ok == 1 && (nameInput.getText().equals("client2"))) {
 
                 Main.window.setScene(ClientOverview.draw());
-                Main.window.setTitle("Client Overview");
+                Main.window.setTitle("Client overview");
                 ok=0;
             }
 
