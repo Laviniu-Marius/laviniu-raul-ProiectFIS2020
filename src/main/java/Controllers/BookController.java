@@ -53,4 +53,18 @@ public class BookController {
 
     }
 
+    public static void deleteBook(String title) {
+        Book bk=getBook(title);
+        if(bk!=null)
+        {
+            int pos=bookList.indexOf(bk);
+            if(pos!=-1)
+            {
+                bookList.remove(pos);
+                writeBooks();
+            }
+        }
+
+    }
+
 }
