@@ -87,6 +87,15 @@ public class BookListOverview {
 
         });
 
+        ViewButton.setOnAction(e -> {
+            String ret=listView.getSelectionModel().getSelectedItem();
+            if(ret!=null)
+            {
+                BookContentOverview.display(ret);
+            }
+
+        });
+
         grid.getChildren().addAll(listView,BookAddButton,BookDeleteButton,BackButton,ViewButton);
         Scene scene = new Scene(grid,w,h);
         return scene;

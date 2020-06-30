@@ -47,6 +47,15 @@ public class ClientBookListOverview {
             Main.window.setTitle("Client overview");
         });
 
+        ViewButton.setOnAction(e -> {
+            String ret=listView.getSelectionModel().getSelectedItem();
+            if(ret!=null)
+            {
+                BookContentOverview.display(ret);
+            }
+
+        });
+
         grid.getChildren().addAll(listView,BackButton,ViewButton);
         Scene scene = new Scene(grid,w,h);
         return scene;

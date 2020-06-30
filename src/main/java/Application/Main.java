@@ -28,6 +28,9 @@ public class Main extends Application  {
         primaryStage.setTitle("Selection Screen");
         primaryStage.setScene(SelectionScreen.draw());
         primaryStage.show();
+
+       /* String s=new String("admin");
+        System.out.println(s.hashCode()); */
     }
 
 }
