@@ -16,7 +16,8 @@ public class Alert
 
         window.initModality(Modality.APPLICATION_MODAL);
         window.setTitle(title);
-        window.setMinWidth(300);
+        window.setMinWidth(600);
+        window.setMinHeight(600);
 
         Label label = new Label();
         label.setText(message);

@@ -18,23 +18,15 @@ public class LibraryManagerOverview {
         grid.setVgap(10);
         grid.setHgap(14);
 
-        Button BookListButton = new Button("Book list");
-        GridPane.setConstraints(BookListButton,7,7);
-
         Button BackButton = new Button("Back");
-        GridPane.setConstraints(BackButton,7,10);
+        GridPane.setConstraints(BackButton,7,16);
 
         BackButton.setOnAction(e ->{
             Main.window.setScene(LoginLibraryManager.draw());
             Main.window.setTitle("Manager Login");
         });
 
-      /*  BookListButton.setOnAction(e -> {
-            Main.window.setScene(BookListOverview.draw());
-            Main.window.setTitle("Book list");
-        }); */
-
-        grid.getChildren().addAll(BookListButton,BackButton);
+        grid.getChildren().addAll(BackButton);
         Scene scene = new Scene(grid,w,h);
         return scene;
     }
