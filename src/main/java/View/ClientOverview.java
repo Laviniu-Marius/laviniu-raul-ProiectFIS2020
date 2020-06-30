@@ -1,14 +1,11 @@
 package View;
 
 import Application.Main;
-import Objects.Book;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-
-import java.util.ArrayList;
 
 
 public class ClientOverview {
