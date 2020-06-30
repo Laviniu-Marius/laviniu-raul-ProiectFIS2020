@@ -12,7 +12,7 @@ public class ClientOverview {
     Stage window=new Stage();
     public static Scene draw()
     {
-        int w = 250, h = 50;
+        int w = 303, h = 50;
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10,10,10,10));
         grid.setVgap(10);
