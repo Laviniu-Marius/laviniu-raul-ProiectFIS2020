@@ -1,4 +1,4 @@
-package Controller;
+package Controllers;
 
 import Objects.Book;
 import View.Alert;
