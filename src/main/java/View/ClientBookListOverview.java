@@ -2,7 +2,6 @@ package View;
 
 import Application.Main;
 import Controllers.BookController;
-import Objects.Book;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
