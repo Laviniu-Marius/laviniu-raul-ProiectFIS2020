@@ -19,7 +19,7 @@ public class LoginClient {
     static Users[]  Client=null;
     public static Scene draw()
     {
-        int w = 350, h = 250;
+        int w = 250, h = 150;
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10,10,10,10));
         grid.setVgap(8);

@@ -21,17 +21,17 @@ public class SelectionScreen {
     Stage window=new Stage();
     public static Scene draw()
     {
-        int w = 400, h = 250;
+        int w = 300, h = 50;
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10,10,10,10));
         grid.setVgap(8);
         grid.setHgap(10);
 
         Button ClientButton = new Button("Client");
-        GridPane.setConstraints(ClientButton,7,7);
+        GridPane.setConstraints(ClientButton,1,1);
 
         Button LibraryManagerButton = new Button("Library manager");
-        GridPane.setConstraints(LibraryManagerButton,10,7);
+        GridPane.setConstraints(LibraryManagerButton,2,1);
 
         ClientButton.setOnAction(e -> {
             Main.window.setScene(LoginClient.draw());
