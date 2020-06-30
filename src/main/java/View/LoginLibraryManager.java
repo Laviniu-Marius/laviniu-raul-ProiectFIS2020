@@ -67,7 +67,7 @@ public class LoginLibraryManager {
             if (ok == 1 && (nameInput.getText().equals("admin"))) {
 
                 Main.window.setScene(LibraryManagerOverview.draw());
-                Main.window.setTitle("Library Manager Overview");
+                Main.window.setTitle("Library manager overview");
                 ok=0;
             }
 
