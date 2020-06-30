@@ -67,7 +67,7 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <version>2.4.1</version>
         <configuration>
-            <finalName>program</finalName>
+            <finalName>library</finalName>
             <!-- get all project dependencies -->
             <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -75,7 +75,7 @@
             <!-- MainClass in mainfest make a executable jar -->
             <archive>
                 <manifest>
-                    <mainClass>AplicatieFis</mainClass>
+                    <mainClass>Application.Main</mainClass>
                 </manifest>
             </archive>
             <appendAssemblyId>false</appendAssemblyId>
@@ -91,6 +91,29 @@
             </execution>
         </executions>
     </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <version>1.8</version>
+            <executions>
+                <execution>
+                    <phase>test</phase>
+                    <goals>
+                        <goal>run</goal>
+                    </goals>
+                    <configuration>
+                        <tasks>
+                            <echo>Using env.test.properties</echo>
+                            <copy file="Accounts.JSON" tofile="${basedir}/target/Accounts.JSON"/>
+                            <copy file="ClientAccounts.JSON" tofile="${basedir}/target/ClientAccounts.JSON"/>
+                            <copy file="Books.JSON" tofile="${basedir}/target/Books.JSON"/>
+                        </tasks>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
     </plugins>
     </build>
 

@@ -12,17 +12,17 @@ public class ClientOverview {
     Stage window=new Stage();
     public static Scene draw()
     {
-        int w = 400, h = 400;
+        int w = 250, h = 50;
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10,10,10,10));
         grid.setVgap(10);
         grid.setHgap(14);
 
         Button BookListButton = new Button("Book list");
-        GridPane.setConstraints(BookListButton,7,7);
+        GridPane.setConstraints(BookListButton,1,1);
 
         Button BackButton = new Button("Back");
-        GridPane.setConstraints(BackButton,7,10);
+        GridPane.setConstraints(BackButton,2,1);
 
         BackButton.setOnAction(e ->{
             Main.window.setScene(LoginClient.draw());
